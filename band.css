@@ -1,0 +1,39 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .card > img{
+    max-width: 100%;
+  }
+
+  .jumbotron{
+    background-image: url("img/banjo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    
+  }
+
+  .jumbotron .container{
+    max-width: 40rem;
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+    color: white
+    
+  }
+
+  .jumbotron p{
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
